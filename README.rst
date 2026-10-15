@@ -8,9 +8,18 @@ It provides temporary projects, ordered commands, captured output, and failure d
 Installation
 ------------
 
+Install a published PyPI release with:
+
 .. code-block:: console
 
     pip install generated-code-harness
+
+The first PyPI release is awaiting publisher setup.
+The tagged source is installable directly in the meantime:
+
+.. code-block:: console
+
+    pip install "generated-code-harness @ git+https://github.com/adamtheturtle/generated-code-harness@2026.10.15"
 
 Usage
 -----

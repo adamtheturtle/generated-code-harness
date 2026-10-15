@@ -22,3 +22,4 @@ Exercise behavior through the public API with real compiler or interpreter proce
 Add user-facing changes to ``newsfragments/<issue>.change.md``.
 To release, assemble Towncrier notes, validate the exact commit, tag it with a calendar version, and publish a GitHub release.
 The release workflow tests, builds, checks, and publishes the wheel and source distribution using PyPI trusted publishing.
+Configure the PyPI publisher for this repository, ``release.yml``, and the ``release`` environment before publishing a GitHub release.
