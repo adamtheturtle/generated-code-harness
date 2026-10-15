@@ -29,3 +29,8 @@ Development
 
 .. include:: ../../CONTRIBUTING.rst
    :start-after: ============
+
+.. toctree::
+   :maxdepth: 1
+
+   changelog
