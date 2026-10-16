@@ -1,25 +1,14 @@
 generated-code-harness
 ======================
 
-Run generated source projects through caller-selected compilers and consumers.
-The package requires Python 3.12 or newer and has no runtime dependencies.
+This repository is archived after evaluating a standalone generated-code runner for Literalizer.
+The shared runner is being retained inside Literalizer; a separate package did not provide enough benefit to justify its maintenance.
+See `Literalizer PR #5693 <https://github.com/adamtheturtle/literalizer/pull/5693>`_ for the local implementation and decision record.
+No PyPI release is planned.
+
+The code and examples below remain available under the MIT license for reference.
+The runner requires Python 3.12 or newer and has no runtime dependencies.
 It provides temporary projects, ordered commands, captured output, and failure diagnostics that identify each source file.
-
-Installation
-------------
-
-Install a published PyPI release with:
-
-.. code-block:: console
-
-    pip install generated-code-harness
-
-The first PyPI release is awaiting publisher setup.
-The tagged source is installable directly in the meantime:
-
-.. code-block:: console
-
-    pip install "generated-code-harness @ git+https://github.com/adamtheturtle/generated-code-harness@2026.10.15"
 
 Usage
 -----

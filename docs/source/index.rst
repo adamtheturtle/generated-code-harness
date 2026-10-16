@@ -22,7 +22,7 @@ LLVM lit/FileCheck provides command-driven test files and pattern matching; this
 Trybuild remains useful for Rust/Cargo UI tests, while Doccmd runs tools over documentation code blocks.
 
 The tests include an independent schema-to-dataclass generator, separate compile-only checks, a copied-module example without installed dependencies, and caller-defined output comparisons that distinguish booleans, integers and negative zero.
-Literalizer uses the package for round-trip programs and batched TypeScript consumer probes.
+Literalizer retains the shared runner locally for round-trip programs and batched TypeScript consumer probes.
 
 Development
 -----------
